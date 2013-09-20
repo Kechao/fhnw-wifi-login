@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference android:title="Auto Login aktivieren" 
+						android:key="active"
+						android:defaultValue="false" />
+	<PreferenceCategory android:title="Active Directory Account">
+        <EditTextPreference android:title="Name"
+        					android:summary="Geben Sie ihren Login Name ein"
+        					android:key="login"
+        					android:defaultValue="vorname.nachname" />
+        <EditTextPreference android:title="Passwort"
+        					android:summary="Geben Sie ihr Passwort ein"
+        					android:key="password"
+        					android:password="true" />
+        <ListPreference android:title="Provider"
+        				android:summary="Geben Sie ihren Provider ein"
+        				android:key="provider"
+        				android:entries="@array/provider_list"
+        				android:entryValues="@array/provider_values" />
+	</PreferenceCategory>
+</PreferenceScreen>

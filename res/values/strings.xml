@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FHNW Wifi Login</string>
+    <string-array name="provider_list">
+        <item>EDU</item>
+        <item>ADM</item>
+    </string-array>
+    <string-array name="provider_values">
+        <item>fhnw-edu</item>
+        <item>fhnw-adm</item>
+    </string-array>
+    <string name="login_successful">FHNW Wifi Login erfolgreich!</string>
+    <string name="login_auth_failed">FHNW Wifi Logindaten ungültig!</string>
+    <string name="login_failed">FHNW Wifi Login fehlgeschlagen!</string>
+</resources>
